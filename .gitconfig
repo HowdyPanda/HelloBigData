@@ -1,0 +1,9 @@
+[user]
+	email = RankinJohnson@hotmail.com
+[color]
+	status = auto
+	branch = auto
+[push]
+	default = matching
+[branch]
+	autosetuprebase = always

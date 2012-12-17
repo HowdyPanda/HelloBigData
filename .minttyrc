@@ -1,0 +1,5 @@
+BoldAsFont=no
+ForegroundColour=255,255,255
+Columns=132
+Rows=100
+PgUpDnScroll=yes

@@ -1,0 +1,44 @@
+q
+exit
+# Octave 3.6.1, Fri Mar 02 17:01:05 2012 CST <Panda@Pandas-Netbook>
+help
+info
+;
+.
+exit
+# Octave 3.6.1, Sat Mar 10 02:02:16 2012 CST <Panda@Pandas-Netbook>
+doc
+plot(rand(10))
+# Octave 3.6.1, Sat Mar 10 02:37:27 2012 CST <Panda@Pandas-Netbook>
+rand(10)
+exit
+# Octave 3.6.1, Sat Mar 10 03:46:28 2012 CST <Panda@Pandas-Netbook>
+2+5
+;
+exit
+# Octave 3.6.1, Fri Mar 30 17:52:53 2012 CST <Panda@Pandas-Netbook>
+help
+doc
+2 + 2
+exit
+# Octave 3.6.1, Tue Apr 24 21:22:37 2012 CST <Panda@Pandas-Netbook>
+2+2
+function answer = lg_factorial1( n )
+answer = 1;
+for i = 2:n
+  answer = answer * i;
+endfore
+endfunction
+function answer = lg_factorial1( n )
+  answer = 1;
+  
+  for i = 2:n
+    answer = answer * i;
+  endfor
+endfunction
+lg_factorial1( 5 );
+lg_factorial1(4)
+x = linspace(0, 2*pi, 100);
+y = sin(x);
+plot(x, y);
+# Octave 3.6.1, Thu May 03 19:19:49 2012 CST <Panda@Pandas-Netbook>
